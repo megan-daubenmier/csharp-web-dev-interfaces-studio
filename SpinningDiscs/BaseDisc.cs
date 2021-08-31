@@ -9,7 +9,7 @@ namespace SpinningDiscs
         public readonly string DiscType;
         public string Name { get; set; }
         public readonly int SpinRate;
-        public double StorageCapacity { get; }
+        public double StorageCapacity { get; set;  }
         public double StorageAvailable { get; set; }
         public bool IsScratched { get; set; }
         public string DiscContents { get; set; }
